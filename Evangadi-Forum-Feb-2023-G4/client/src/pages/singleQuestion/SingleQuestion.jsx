@@ -75,9 +75,9 @@ const SingleQuestion = () => {
   return (
     <div className="container">
       <h2>Question</h2>
-      <p>{question?.question_id}</p>
-      <h4>{question?.question}</h4>
-       <h5>{question?.category}</h5>
+      {/* <p>{question?.question_id}</p> */}
+      <p>{question?.question}</p>
+       <p>{question?.category}</p>
       <h5>{question?.question_description}</h5>
       <p>{moment(question?.inserted_datetime).format("HH:mm:ss MM/DD/YYYY")}</p>
       <hr />
